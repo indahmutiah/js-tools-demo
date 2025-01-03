@@ -1,0 +1,35 @@
+{
+  "name": "js-tools-demo",
+  "version": "1.0.0",
+  "description": "Demo ",
+  "main": "index.js",
+  "scripts": {
+    "start": "bun pluralize-demo.ts", 
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indahmutiah/js-tools-demo.git"
+  },
+  "keywords": [
+    "demo",
+    "js",
+    "ts"
+  ],
+  "author": "Indah Mutiah Utami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indahmutiah/js-tools-demo/issues"
+  },
+  "homepage": "https://github.com/indahmutiah/js-tools-demo#readme",
+  "devDependencies": {
+    "@types/is-even": "^1.0.2",
+    "@types/pluralize": "^0.0.33",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "is-even": "^1.0.0",
+    "pluralize": "^8.0.0"
+  }
+}
